@@ -1,4 +1,4 @@
-FROM influxdb
+FROM influxdb:1.3.6-alpine
 
 #ENV INFLUXDB_DB cadvisor
 #ENV INFLUXDB_HTTP_AUTH_ENABLED true
